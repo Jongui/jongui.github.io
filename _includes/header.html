@@ -1,6 +1,5 @@
 <header>
     <div class="inner">
-        {% include navbar.html %}
         <a href="{{ '/' | absolute_url }}">
             <h1>{{ site.title | default: site.github.repository_name }}</h1>
         </a>
@@ -11,5 +10,6 @@
         {% if site.github.is_user_page %}
         <a href="{{ site.github.repository_url }}" class="button"><small>Follow me on</small> GitHub</a>
         {% endif %}
+        {% include navbar.html %}
     </div>
 </header>

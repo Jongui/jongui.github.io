@@ -1,0 +1,18 @@
+docs_list_title: Pages
+
+docs:
+
+- title: Home
+  url: index.html
+
+- title: Android
+  url: android.html
+
+- title: Cordova
+  url: cordova.html
+
+- title: Python
+  url: python.html
+
+- title: Unity
+  url: unity.html
