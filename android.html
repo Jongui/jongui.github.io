@@ -4,5 +4,11 @@ layout: default
 
 <h2>Android</h2>
 
-Here goes my Android Project!
-<a href="https://github.com/Jongui/OurWedding2">OurWedding</a>
+<ul style="list-style-type:none">
+    {% for post in site.categories.android %}
+    <li>
+        <h3 href="{{ post.url }}">{{ post.title }}</h3>
+        {{ post.content }}
+    </li>
+    {% endfor %}
+</ul>

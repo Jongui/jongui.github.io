@@ -2,18 +2,18 @@
 ---
 
 @import "{{ site.theme }}";
-ul {
+ul.navbar-ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-li {
+li.navbar-li {
     float: left;
 }
 
-li a {
+li.navbar-li a {
     display: block;
     color: white;
     text-align: center;
