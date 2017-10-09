@@ -964,6 +964,13 @@ footer a:hover {
     content: none; } }
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+p {
+  text-align: justify;
+  font-size: 16px; }
+
+p.p-sidebar {
+  font-size: 12px; }
+
 ul.navbar-ul {
   list-style-type: none;
   margin: 0;
@@ -979,6 +986,9 @@ li.navbar-li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none; }
+
+li.navbar-li a:hover:not(.active) {
+  color: #111; }
 
 .active {
   background-color: #4CAF50; }
