@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<h2>Swift</h2>
+<p>Started to learn Swift about one year ago. Haven't done much with it, but soon hope release something at AppleStore</p>
+
+<ul style="list-style-type:none">
+    {% for post in site.categories.swift %}
+    <li>
+        <h3 href="{{ post.url }}">{{ post.title }}</h3>
+        {{ post.content }}
+    </li>
+    {% endfor %}
+</ul>

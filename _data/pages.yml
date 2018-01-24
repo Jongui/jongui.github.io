@@ -11,9 +11,15 @@ docs:
 - title: Cordova
   url: cordova.html
 
+- title: Ionic
+  url: ionic.html
+
 - title: Python
   url: python.html
 
+- title: Swift
+  url: swift.html
+  
 - title: Unity
   url: unity.html
 
